@@ -12,8 +12,8 @@
    </head>
    <body>
      <h1>Testo originale</h1>
-     <p><?php echo "Lunghezza: ".strlen($testo)." Testo: ".$testo ?></p>
+     <p><?php echo "Lunghezza: ".strlen($testo)."<br>"." Testo: ".$testo ?></p>
      <h1>Testo censurato</h1>
-     <p><?php echo "Lunghezza: ".strlen(str_replace($censura, "***", $testo))." Testo: ".str_replace($censura, "***", $testo) ?></p>
+     <p><?php echo "Lunghezza: ".strlen(str_replace($censura, "***", $testo))."<br>"." Testo: ".str_replace($censura, "***", $testo) ?></p>
    </body>
  </html>
